@@ -1,0 +1,52 @@
+npm uninstall
+npm install
+
+to start the server
+npm run start
+
+Angular:-github copilot
+/fix  check all error fix (shift enter)
+/fix build error
+
+/fix error:
+
+back 8081
+fronend:3000
+*****************
+db details:
+postgres::
+userid/password:postgres/postgres123
+usermanagement:
+userid/password:postgres/postgres123
+create view my_tables as 
+select table_catalog, table_schema, table_name, table_type 
+from information_schema.tables 
+where table_schema not in ('pg_catalog', 'information_schema');
+
+select * from my_tables;
+
+select * from customers c 
+select * from users u 
+
+
+
+generate test case document
+generate funcitonal requirement document
+generate funcitonal testcase document
+generate funcitonal specification document
+apply code review findings
+customers>invoices>payments>
+nextval('invoice_id')
+nextval('invoices_invoice_id_seq'::regclas)
+
+users:
+userid->pk
+customers:
+.	customer_id (PK)
+· username
+· password_hash
+· email
+· role (e.g., 'customer', 'admin')
+· created_at
+
+******************************************
